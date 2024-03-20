@@ -89,7 +89,7 @@ label {
   transition: all 0.3s ease-in-out;
 }
 .input-fill:focus {
-  box-shadow: 1.5px 1.5px 1px rgb(75, 71, 71);
+  box-shadow: 0.3px 0.3px 1px rgb(75, 71, 71);
 }
 
 span {
@@ -164,6 +164,9 @@ span {
   }
   html {
     font-size: 52%;
+  }
+  label {
+    margin: 0;
   }
   .signup-text-box .heading {
     display: block;
